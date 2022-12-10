@@ -1,0 +1,48 @@
+.backGround {
+    background-color: whitesmoke;
+}
+
+.para {
+    font-size: 3.5rem;
+}
+
+.circleMin {
+    width: 250px;
+    height: 250px;
+    border: 1px solid navy;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: navy;
+}
+
+.circleSec {
+    width: 250px;
+    height: 250px;
+    border: 1px solid firebrick;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: firebrick;
+}
+
+.circleMiliSec {
+    width: 250px;
+    height: 250px;
+    border: 1px solid green;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: green;
+}
+
+.circleMiliSec:hover {
+    background-color: rgba(0, 128, 0, 0.158);
+    cursor: pointer;
+}
